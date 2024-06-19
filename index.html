@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Final - Desenvolvimento WEB</title>
+    <link rel="stylesheet" href="css/header.css">
+    <script>
+    
+        function addWelcomeMessage() {
+            const welcomeDiv = document.createElement('div');
+            welcomeDiv.textContent = 'Bem-vindo ao nosso site!';
+            welcomeDiv.style.position = 'absolute';
+            welcomeDiv.style.top = '25px';
+            welcomeDiv.style.left = '130px';
+            welcomeDiv.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
+            welcomeDiv.style.padding = '10px';
+            welcomeDiv.style.borderRadius = '5px';
+            welcomeDiv.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.1)';
+            document.body.appendChild(welcomeDiv);
+
+            setTimeout(function() {
+                welcomeDiv.style.display = 'none';
+            }, 3000);
+        }
+    </script>
+</head>
+<body onload="addWelcomeMessage()">
+    <header class="header">
+        <a href="index.html"><img style="width: 9vh; height: 8vh; margin: 0.5vh;" class="logo" src="image/logo.png" alt="Logo"></a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+</body>
+</html>
