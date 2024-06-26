@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 :root {
     --azul-navbar: rgb(20, 76, 92);
 }

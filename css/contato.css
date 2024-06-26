@@ -1,0 +1,64 @@
+.navbar{
+    background-color: rgba(190, 190, 190, 0.829);
+    border: 1px solid rgb(78, 100, 114);
+}
+
+.titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0.8rem;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    margin:  0 0.7rem;
+}
+
+textarea{
+    resize: vertical;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1.5rem;
+    background-color: #c7c7c7;
+    
+}
+
+label{
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.input{
+    border-radius: 10px;
+    width: 100%; 
+    /* esse wdith passou pra baixo, não entendi */
+    margin-bottom: 10px;
+    border: 1px solid #afafaf;
+    padding: 10px;
+}
+.botao{
+    background-color: #646464;
+    color: #c7c6c6;
+    padding: 10px;
+    border-radius: 10px;
+    width: 49%;
+    border: none;
+    
+    
+}
