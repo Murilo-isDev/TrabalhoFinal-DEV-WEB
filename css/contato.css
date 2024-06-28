@@ -1,64 +1,63 @@
-.navbar{
-    background-color: rgba(190, 190, 190, 0.829);
-    border: 1px solid rgb(78, 100, 114);
+*{
+    box-sizing: border-box;
+}
+input, textarea{
+    border-radius: 4px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border: 2px solid #aaa;
+    outline: none;
 }
 
-.titulo{
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: 0.8rem;
-}
-.nav-link{
-    color: rgb(255, 255, 255);
-    font-size: 1.2rem;
-    margin:  0 0.7rem;
-}
 
 textarea{
-    resize: vertical;
+    resize: none;
 }
-
-.conteudo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem;
-    flex-direction: column;
-}
-
 main{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 25rem;
-    border: 2px solid black;
+    margin-top: 5vh;
+    gap: 10px
+}
+
+.form{
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    align-items: center;
+    height: 60vh;
+    flex-wrap: wrap;
     border-radius: 10px;
-    padding: 1.5rem;
-    background-color: #c7c7c7;
+    padding: 20px;
     
+    justify-content: space-around;
+
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: flex-start;
 }
 
 label{
-    font-size: large;
-    font-weight: bold;
-    padding-bottom: 10px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
 }
 
-.input{
-    border-radius: 10px;
-    width: 100%; 
-    /* esse wdith passou pra baixo, não entendi */
-    margin-bottom: 10px;
-    border: 1px solid #afafaf;
+.botao-form{
     padding: 10px;
+    border-radius: 20px;
+    width: 20vh;
 }
-.botao{
-    background-color: #646464;
-    color: #c7c6c6;
-    padding: 10px;
-    border-radius: 10px;
-    width: 49%;
-    border: none;
-    
-    
+
+.botao-form:hover{
+    background-color: #ccc;
 }
